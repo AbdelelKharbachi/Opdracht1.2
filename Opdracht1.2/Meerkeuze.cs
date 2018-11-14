@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Opdracht1._2
 {
-    class Open : IVraag
+    class Meerkeuze : IVraag
     {
+        private string vraag;
 
         public string Vraag()
         {
@@ -19,14 +20,19 @@ namespace Opdracht1._2
             throw new NotImplementedException();
         }
 
+        public int Graad()
+        {
+            throw new NotImplementedException();
+        }
+
         public string Categorie()
         {
             throw new NotImplementedException();
         }
 
-        public int Graad()
+        public override string ToString()
         {
-            throw new NotImplementedException();
+            return vraag;
         }
     }
 }

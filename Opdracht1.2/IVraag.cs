@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Opdracht1._2
 {
-    class Gesloten
+    public interface IVraag
     {
+        string Vraag();
+        string Antwoord();
+        int Graad();
+        string Categorie();
     }
 }
