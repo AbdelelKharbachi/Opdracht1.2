@@ -15,6 +15,7 @@ namespace Opdracht1._2
             Categorie = categorie;
             Graad = graad;
         }
+
         public string Vraag { set; get; }
 
         public string Antwoord { set; get; }

@@ -8,9 +8,16 @@ namespace Opdracht1._2
 {
     class Meerkeuze : IVraag
     {
-        private string vraag;
-        private string categorie;
+        private Dictionary<string,bool> Antwoorden = new Dictionary<string, bool>();
 
+        public Meerkeuze(string vraag, string categorie, int graad)
+        {
+            Vraag = vraag;
+            Categorie = categorie;
+            Graad = graad;
+        }
+
+        public Meerkeuze() { }
 
         public string Vraag { set; get; }
 
@@ -22,6 +29,11 @@ namespace Opdracht1._2
 
 
         public string Categorie { set; get; }
+
+        public void AddChoice(string antwoord, bool goed)
+        {
+            Antwoorden.Add(antwoord, goed);
+        }
 
         public override string ToString()
         {
