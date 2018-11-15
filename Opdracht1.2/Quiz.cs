@@ -8,29 +8,21 @@ namespace Opdracht1._2
 {
     class Quiz
     {
-        public List<IVraag> quiz = new List<IVraag>();
+        public List<IVraag> vragen = new List<IVraag>();
 
-        public void ToonVraag()
+        public void ToonVraag(IVraag v)
         {
-            foreach (IVraag s in quiz)
-            {
-                Console.WriteLine(s);
-            }
+            Console.WriteLine(v);
         }
 
         public void AddVraag(IVraag v)
         {
-            quiz.Add(v);
+            vragen.Add(v);
         }
 
-        public bool CheckAntwoord(string input, string antwoord)
+        public List<IVraag> GetVragen()
         {
-            input = Console.ReadLine();
-            if (input.Equals(antwoord))
-            {
-                return true;
-            }
-            return false;
+            return vragen;
         }
         
     }
