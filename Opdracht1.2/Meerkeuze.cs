@@ -9,30 +9,23 @@ namespace Opdracht1._2
     class Meerkeuze : IVraag
     {
         private string vraag;
+        private string categorie;
 
-        public string Vraag()
-        {
-            throw new NotImplementedException();
-        }
 
-        public string Antwoord()
-        {
-            throw new NotImplementedException();
-        }
+        public string Vraag { set; get; }
 
-        public int Graad()
-        {
-            throw new NotImplementedException();
-        }
 
-        public string Categorie()
-        {
-            throw new NotImplementedException();
-        }
+        public string Antwoord { set; get; }
+
+
+        public int Graad { set; get; }
+
+
+        public string Categorie { set; get; }
 
         public override string ToString()
         {
-            return vraag;
+            return Vraag;
         }
     }
 }

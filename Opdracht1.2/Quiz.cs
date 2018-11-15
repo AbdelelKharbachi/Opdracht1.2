@@ -19,5 +19,6 @@ namespace Opdracht1._2
         {
             quiz.Add(v);
         }
+        
     }
 }

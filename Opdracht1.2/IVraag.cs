@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Opdracht1._2
 {
-    public interface IVraag
+    interface IVraag
     {
-        string Vraag();
-        string Antwoord();
-        int Graad();
-        string Categorie();
+        string Vraag { set; get; }
+        string Antwoord { set; get; }
+        int Graad { set; get; }
+        string Categorie { set; get; }
     }
 }

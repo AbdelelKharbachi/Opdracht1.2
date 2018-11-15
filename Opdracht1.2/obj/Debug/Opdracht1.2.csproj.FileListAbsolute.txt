@@ -1,0 +1,7 @@
+C:\Users\XD\source\repos\Opdracht1.2\Opdracht1.2\obj\Debug\Opdracht1.2.csprojAssemblyReference.cache
+C:\Users\XD\source\repos\Opdracht1.2\Opdracht1.2\obj\Debug\Opdracht1.2.csproj.CoreCompileInputs.cache
+C:\Users\XD\source\repos\Opdracht1.2\Opdracht1.2\bin\Debug\Opdracht1.2.exe.config
+C:\Users\XD\source\repos\Opdracht1.2\Opdracht1.2\bin\Debug\Opdracht1.2.exe
+C:\Users\XD\source\repos\Opdracht1.2\Opdracht1.2\bin\Debug\Opdracht1.2.pdb
+C:\Users\XD\source\repos\Opdracht1.2\Opdracht1.2\obj\Debug\Opdracht1.2.exe
+C:\Users\XD\source\repos\Opdracht1.2\Opdracht1.2\obj\Debug\Opdracht1.2.pdb

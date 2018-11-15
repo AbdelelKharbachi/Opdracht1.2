@@ -10,7 +10,15 @@ namespace Opdracht1._2
     {
         static void Main(string[] args)
         {
+            Open vr1 = new Open("Wat is een purnie?", "Een purnie", "mens en natuur", 1);
+            Quiz quiz = new Quiz();
+            quiz.AddVraag(vr1);
+
+            Console.WriteLine(quiz);
+
+            Console.ReadLine();
             
+
         }
     }
 }

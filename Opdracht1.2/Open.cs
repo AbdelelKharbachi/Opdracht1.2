@@ -8,25 +8,24 @@ namespace Opdracht1._2
 {
     class Open : IVraag
     {
-
-        public string Vraag()
+        public Open(string vraag, string antwoord, string categorie, int graad)
         {
-            throw new NotImplementedException();
+            Vraag = vraag;
+            Antwoord = antwoord;
+            Categorie = categorie;
+            Graad = graad;
         }
+        public string Vraag { set; get; }
 
-        public string Antwoord()
-        {
-            throw new NotImplementedException();
-        }
+        public string Antwoord { set; get; }
 
-        public string Categorie()
-        {
-            throw new NotImplementedException();
-        }
+        public string Categorie { set; get; }
 
-        public int Graad()
+        public int Graad { set; get; }
+
+        public override string ToString()
         {
-            throw new NotImplementedException();
+            return Vraag;
         }
     }
 }
