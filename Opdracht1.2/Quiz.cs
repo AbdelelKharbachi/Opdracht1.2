@@ -24,6 +24,5 @@ namespace Opdracht1._2
         {
             return vragen;
         }
-        
     }
 }
